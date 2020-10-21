@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content-form">
+            <div class="content-header">
+                <h1>Tugas Form</h1>
+            </div>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Email :</label>
+                    <input type="text" name="mail" id="mail">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password :</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label>Gender :</label>
+                    <div class="d-flex">
+                        <label><input type="radio" id="Male" name="Gender">Laki - laki</label>
+                        <label><input type="radio" id="Female" name="Gender">Perempuan</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label> Hobi </label>
+                    <div class="d-flex">
+                        <label><input type="checkbox">Coding</label>
+                        <label><input type="checkbox">Design</label>
+                        <label><input type="checkbox">Reading</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Provinsi :</label>
+                    <select>
+                        <option>Bali</option>
+                        <option>Kaltim</option>
+                        <option>Kalbar</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat: </label>
+                    <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
